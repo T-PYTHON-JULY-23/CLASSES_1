@@ -6,10 +6,10 @@ class panda:
       self.country_of_live = country_of_ive
 
     def sleep_hours_panda(self):
-       return f"the sleep hours of {self.name} is {self.sleep_hours}"
+       return f"the sleep hours of {self.name} is: {self.sleep_hours}"
 
     def reproduction_panda(self):
-       return f" the {self.name} breed {self.reproduction} in early winter."
+       return f"the {self.name} breed {self.reproduction} in early winter."
     
 
 
@@ -22,5 +22,21 @@ print("the name is: " , panda1.name)
 print("the country of live is: " , panda2.country_of_live)
 
 print(panda1.sleep_hours_panda())
+print(panda1.reproduction_panda())
+print("-"*30)
+
 print(panda2.sleep_hours_panda())
+print(panda2.reproduction_panda())
+print("-"*30)
+
+
+print(panda3.sleep_hours_panda())
+print(panda3.reproduction_panda())
+print("-"*30)
+
+print(panda4.sleep_hours_panda())
+print(panda4.reproduction_panda())
+print("-"*30)
+
+
 
