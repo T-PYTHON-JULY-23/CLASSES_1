@@ -1,4 +1,4 @@
-class panda:
+class Panda:
     def __init__(self,name:str,sleep_hours:int,reproduction:str,country_of_ive:str) -> None:
       self.name = name
       self.sleep_hours = sleep_hours
@@ -13,10 +13,10 @@ class panda:
     
 
 
-panda1 = panda("Giant Panda","10 hours ","Once in a  year", "south central China" )
-panda2 = panda("Red Panda","17 hours","Once in a  year", "Eastern Himalayas")
-panda3 = panda("Roy","20 hours","Once in a year","Nepal" )
-panda4 = panda("joo","12 hours","Once in a year","Bhutan")
+panda1 = Panda("Giant Panda","10 hours ","Once in a  year", "south central China" )
+panda2 = Panda("Red Panda","17 hours","Once in a  year", "Eastern Himalayas")
+panda3 = Panda("Roy","20 hours","Once in a year","Nepal" )
+panda4 = Panda("joo","12 hours","Once in a year","Bhutan")
 
 print("the name is: " , panda1.name)
 print("the country of live is: " , panda2.country_of_live)
