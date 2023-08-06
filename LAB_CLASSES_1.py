@@ -8,6 +8,7 @@ class Panda():
     def eat(self):
         print(f"The {self.__name} eat bamboo shoots and leaves")
     def speed(self):
+        print(f"The {self.__name} is {self.__age} years old, the hight is {self.__hight} and the wight is {self.__wight}")
         print(f"The {self.__name} the fast speed is : {self.__FastSpeed}")
 
     
