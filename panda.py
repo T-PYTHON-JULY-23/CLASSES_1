@@ -19,6 +19,8 @@ class Panda():
 
 first_panda=Panda(166,75,'first',5)
 secend_panda=Panda(200,90,'secend',7)
+thired_panda=Panda(200,90,'3rd',7)
+forth_panda=Panda(200,90,'forth',7)
 
 
 
@@ -27,6 +29,8 @@ print(secend_panda.name,secend_panda.age,secend_panda.hight,secend_panda.wight)
 
 first_panda.panda_say_hello()
 secend_panda.panda_say_hello()
+thired_panda.panda_say_hello()
+forth_panda.panda_say_hello()
 
 
 first_panda.set_hight_wight(secend_panda.hight,secend_panda.wight)
