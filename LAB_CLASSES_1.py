@@ -7,7 +7,7 @@ class Panda():
         self.__FastSpeed = fast_speed
     def eat(self):
         print(f"The {self.__name} eat bamboo shoots and leaves")
-    def speed(self):
+    def run(self):
         print(f"The {self.__name} is {self.__age} years old, the hight is {self.__hight} and the wight is {self.__wight}")
         print(f"The {self.__name} the fast speed is : {self.__FastSpeed}")
 
@@ -15,5 +15,9 @@ class Panda():
 
 
 panda1 = Panda("The gaint Panda",10,150,180,52)
+panda2 = Panda("The Red Panda",10,150,180,52)
+panda3 = Panda("The Panda",10,150,180,52)
+panda4 = Panda("The white Panda",10,150,180,52)
+
 panda1.eat()
-panda1.speed()
+panda1.run()
